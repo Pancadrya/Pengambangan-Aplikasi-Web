@@ -6,12 +6,6 @@ a {
   text-decoration: none;
   color: #fff;
 }
-
-.thumbnail {
-  margin-left: auto;
-  overflow: hidden;
-}
-
 .form-select option:hover,
 .form-select option:active {
   background-color: rgb(230, 15, 15); /* Warna latar belakang terpilih */
@@ -92,31 +86,12 @@ a {
   color: #fffccc;
 }
 
-@media (min-width: 768px) {
-  .thumbnail {
-    width: 750px;
+@media (max-width: 585px) {
+  .button_hero {
+    text-align: center;
   }
-}
-@media (min-width: 992px) {
-  .thumbnail {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .thumbnail {
-    width: 1170px;
-  }
-}
-@media (min-width: 1400px) {
-  .thumbnail {
-    width: 1370px;
-  }
-
-  .thumbnail h1 {
-    font-size: 50px;
-  }
-
-  .thumbnail p {
-    font-size: 20px;
+  .button_hero a {
+    margin: 20px 0 0 0;
+    display: block;
   }
 }
