@@ -1,0 +1,122 @@
+body {
+  background-color: #fffccc;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.thumbnail {
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.form-select option:hover,
+.form-select option:active {
+  background-color: rgb(230, 15, 15); /* Warna latar belakang terpilih */
+  color: #fff; /* Warna teks terpilih */
+}
+
+.text-with-underline {
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 6px;
+}
+
+.section {
+  margin-bottom: 75px;
+}
+
+.form_label {
+  font-size: 13px;
+  padding-left: 2px;
+}
+
+.message_label {
+  font-size: 15px;
+}
+
+.message {
+  font-size: 30px;
+  padding: 20px 10px 20px 20px;
+}
+
+.message::placeholder,
+.name::placeholder {
+  color: rgb(175, 184, 184);
+}
+
+.checkbox_label {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.form-control,
+.form-check-input,
+.form-select {
+  border: 2px solid rgb(175, 184, 184);
+}
+
+.form-control:focus,
+.form-check-input:focus,
+.form-select:focus {
+  border: 2px solid rgb(230, 15, 15);
+  box-shadow: 0 0 4px 2px rgba(230, 15, 15);
+}
+
+.form-check {
+  margin-bottom: 15px;
+}
+
+.footer {
+  background-color: #050038;
+  color: #fff;
+  padding-top: 30px;
+  font-size: small;
+}
+
+.socmed_footer {
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer_list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer_list li a:hover,
+.socmed_footer i:hover {
+  color: #fffccc;
+}
+
+@media (min-width: 768px) {
+  .thumbnail {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .thumbnail {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .thumbnail {
+    width: 1170px;
+  }
+}
+@media (min-width: 1400px) {
+  .thumbnail {
+    width: 1370px;
+  }
+
+  .thumbnail h1 {
+    font-size: 50px;
+  }
+
+  .thumbnail p {
+    font-size: 20px;
+  }
+}
